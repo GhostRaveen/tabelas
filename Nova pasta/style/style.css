@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body {
+	font-family: Arial;
+}
+
+table {
+	width: 400px;
+	height: 400px;
+	background-color: lightgray;
+	border: 1px solid black;
+	border-collapse: collapse;
+	box-shadow: 3px 3px 6px 0px rgba(0, 0, 0, 30%);
+}
+
+td {
+	border: 1px solid black;
+	padding: 8px;
+	text-align: center;
+	vertical-align: bottom;
+}
+
+td:hover {
+	background-color: #999999;
+}
