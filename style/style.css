@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body {
+	font-family: Arial;
+}
+
+table {
+	width: 400px;
+	background-color: lightgray;
+	text-align: center;
+	border: 1px solid black;
+	border-collapse: collapse;
+	box-shadow: 3px 3px 6px 0px rgba(0, 0, 0, 30%);
+}
+
+#tr3 {
+	background-color: black;
+	color: #fff;
+}
+
+td {
+	border: 1px solid black;
+	padding: 8px;
+}
+
+.td_colorido {
+	background-color: yellow;
+	color: black;
+	font-weight: bold;
+}
+
+.td_colorido:hover {
+	background-color: blue;
+	color: lightgray;
+	font-weight: bolder;
+}
