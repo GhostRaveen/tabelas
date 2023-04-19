@@ -8,29 +8,24 @@ table {
 	width: 400px;
 	background-color: lightgray;
 	text-align: center;
-	border: 1px solid black;
 	border-collapse: collapse;
-	box-shadow: 3px 3px 6px 0px rgba(0, 0, 0, 30%);
+	/* box-shadow: inset 3px 3px 6px 0px rgba(0, 0, 0, 30%); */
 }
 
-#tr3 {
-	background-color: black;
-	color: #fff;
+caption {
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 10px;
+	background-color: #999999;
 }
 
-td {
+td, th {
 	border: 1px solid black;
 	padding: 8px;
+	text-align: center;
 }
 
-.td_colorido {
-	background-color: yellow;
-	color: black;
-	font-weight: bold;
-}
-
-.td_colorido:hover {
-	background-color: blue;
-	color: lightgray;
-	font-weight: bolder;
+tbody > tr > td {
+	background-image: url('image/tabela.png');
+	background-size: 100px 100px;
 }
